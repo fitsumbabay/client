@@ -14,24 +14,24 @@ An application that displays the current weather for any given city and allows u
 
 
        # Technologies Used
-*React*: A JavaScript library for building user interfaces.
-*Vite*: A build tool that provides a faster and leaner development experience for modern web projects.
-*Material UI*: A popular React UI framework for implementing Material Design, used for styling the application.
-*OpenWeatherMap API*: Used to fetch current weather data based on user input.
-*Axios*: For making HTTP requests to the backend API.
-*MongoDB*: A NoSQL database used to store the list of items.
-*JWT Authentication*: For securely managing user sessions and protecting routes.
+- *React*: A JavaScript library for building user interfaces.
+- *Vite*: A build tool that provides a faster and leaner development experience for modern web projects.
+- *Material UI*: A popular React UI framework for implementing Material Design, used for styling the application.
+- *OpenWeatherMap API*: Used to fetch current weather data based on user input.
+- *Axios*: For making HTTP requests to the backend API.
+- *MongoDB*: A NoSQL database used to store the list of items.
+- *JWT Authentication*: For securely managing user sessions and protecting routes.
 
 ## Setup and Run Locally
    - Prerequisites
-*Node.js* (version 12 or later)
-*npm* (Node package manager) or yarn
-*MongoDB* (local or cloud instance)
+- *Node.js* (version 12 or later)
+- *npm* (Node package manager) or yarn
+- *MongoDB* (local or cloud instance)
 
  ## Live Site
- *front-end Live site*:
+ - *front-end Live site*:
 
- *back-end Live site*:
+ - *back-end Live site*:
 
 
  *Backend Setup*
@@ -65,7 +65,7 @@ An application that displays the current weather for any given city and allows u
 
 
     # Frontend Functionality
-*Weather Component*
+- *Weather Component*
 Allows users to enter a city name and fetch current weather conditions using the OpenWeatherMap API.
 
 *ItemManager Component*
