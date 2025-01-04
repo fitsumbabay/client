@@ -23,18 +23,18 @@ An application that displays the current weather for any given city and allows u
 - *JWT Authentication*: For securely managing user sessions and protecting routes.
 
 ## Setup and Run Locally
-   - Prerequisites
-- *Node.js* (version 12 or later)
-- *npm* (Node package manager) or yarn
-- *MongoDB* (local or cloud instance)
+- Prerequisites
+  - *Node.js* (version 12 or later)
+  - *npm* (Node package manager) or yarn
+  - *MongoDB* (local or cloud instance)
 
  ## Live Site
- - *front-end Live site*:
+ - *front-end Live site*: https://client-3dto.onrender.com
 
- - *back-end Live site*:
+ - *back-end Live site*: https://back-end-y5ny.onrender.com
 
 
- *Backend Setup*
+## Backend Setup
 1. Clone the repository:
    git clone https://github.com/fitsumbabay/back-end
 
@@ -50,7 +50,7 @@ An application that displays the current weather for any given city and allows u
 
 
   
-   *Frontend Setup*
+## Frontend Setup
 1. Clone the repository:
    git clone https://github.com/fitsumbabay/client
 2. Navigate to the frontend directory:
@@ -94,10 +94,10 @@ Allows users to enter a city name and fetch current weather conditions using the
 *POST /api/auth/login*: Logs in an existing user and returns a JWT token for the session.
 
  # Interactions
-*Fetching Items*: The frontend sends a GET request to http://localhost:5000/api/items to fetch the list of items.
+*Fetching Items*: The frontend sends a GET request to https://back-end-y5ny.onrender.com/api/items to fetch the list of items.
 
-*Adding an Item*: When a user adds a new item, the frontend sends a POST request to http://localhost:5000/api/items with the item data.
+*Adding an Item*: When a user adds a new item, the frontend sends a POST request to https://back-end-y5ny.onrender.com/api/items with the item data.
 
-*Updating an Item*: When a user updates an item, the frontend sends a PUT request to http://localhost:5000/api/items/:id with the updated item data.
+*Updating an Item*: When a user updates an item, the frontend sends a PUT request to https://back-end-y5ny.onrender.com/api/items/:id with the updated item data.
 
-*Deleting an Item*: When a user deletes an item, the frontend sends a DELETE request to http://localhost:5000/api/items/:id.
+*Deleting an Item*: When a user deletes an item, the frontend sends a DELETE request to https://back-end-y5ny.onrender.com/api/items/:id.

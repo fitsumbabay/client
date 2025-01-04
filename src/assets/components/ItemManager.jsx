@@ -28,11 +28,14 @@ const ItemManager = () => {
   const fetchItems = async () => {
     setLoading(true);
     try {
-      const response = await axios.get("http://localhost:5000/api/items", {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
+      const response = await axios.get(
+        "https://back-end-y5ny.onrender.com/api/items",
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
       const itemsData = Array.isArray(response.data) ? response.data : [];
       setItems(itemsData);
     } catch (error) {
@@ -62,7 +65,7 @@ const ItemManager = () => {
     try {
       if (editingItemId) {
         await axios.put(
-          `http://localhost:5000/api/items/${editingItemId}`,
+          `https://back-end-y5ny.onrender.com/api/items/${editingItemId}`,
           {
             name,
             description,
@@ -84,7 +87,7 @@ const ItemManager = () => {
         setEditingItemId(null);
       } else {
         const response = await axios.post(
-          "http://localhost:5000/api/items",
+          "https://back-end-y5ny.onrender.com/api/items",
           {
             name,
             description,
@@ -109,11 +112,14 @@ const ItemManager = () => {
   const handleDelete = async (id) => {
     setLoading(true);
     try {
-      await axios.delete(`http://localhost:5000/api/items/${id}`, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
+      await axios.delete(
+        `https://back-end-y5ny.onrender.com/api/items/${id}`,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
       setItems(items.filter((item) => item._id !== id));
     } catch (error) {
       setError("Error deleting item");
