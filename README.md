@@ -84,10 +84,10 @@ Allows users to enter a city name and fetch current weather conditions using the
 
 
 # API Endpoints
-*GET /api/items*: Fetches all items.
-*POST /api/items*: Adds a new item.
-*PUT /api/items/:id*: Updates an existing item.
-*DELETE /api/items/:id*: Deletes an item.
+ - *GET /api/items*: Fetches all items.
+ - *POST /api/items*: Adds a new item.
+ - *PUT /api/items/:id*: Updates an existing item.
+ - *DELETE /api/items/:id*: Deletes an item.
 
 # Authentication Endpoints
 *POST /api/auth/register*: Registers a new user.
