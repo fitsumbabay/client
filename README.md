@@ -90,8 +90,8 @@ Allows users to enter a city name and fetch current weather conditions using the
  - *DELETE /api/items/:id*: Deletes an item.
 
 # Authentication Endpoints
-*POST /api/auth/register*: Registers a new user.
-*POST /api/auth/login*: Logs in an existing user and returns a JWT token for the session.
+- *POST /api/auth/register*: Registers a new user.
+- *POST /api/auth/login*: Logs in an existing user and returns a JWT token for the session.
 
  # Interactions
 *Fetching Items*: The frontend sends a GET request to https://back-end-y5ny.onrender.com/api/items to fetch the list of items.
