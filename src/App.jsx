@@ -130,6 +130,12 @@ const App = () => {
             <ListItemText primary="Login" />
           </ListItem>
         )}
+        <ListItem button component={Link} to="/register">
+          <ListItemIcon>
+            <InfoIcon />
+          </ListItemIcon>
+          <ListItemText primary="Register" />
+        </ListItem>
         <ListItem button component={Link} to="/contact">
           <ListItemIcon>
             <ContactMailIcon />
