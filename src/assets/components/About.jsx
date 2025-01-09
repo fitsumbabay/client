@@ -24,7 +24,7 @@ const About = () => {
           <Grid item xs={12} md={6}>
             <Typography variant="h6">Key Features:</Typography>
             <ul>
-              <li>Weather information</li>
+              <li>Real-time Weather information</li>
               <li>Item management</li>
             </ul>
           </Grid>
