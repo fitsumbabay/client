@@ -228,7 +228,7 @@ const App = () => {
               path="/"
               element={
                 <Typography variant="h4" align="center">
-                  Welcome to the Weather and Item App
+                  Welcome to the Weather and Item Management App
                 </Typography>
               }
             />
